@@ -1,0 +1,16 @@
+.headingline::before{
+    content: '';
+    width: 14rem;
+    height: 0.20rem;
+    background-color: rgba(21, 128, 60, 0.863);
+    display: block;
+}
+.headingline::after{
+    margin-left: auto;
+    margin-right: auto;
+    content: '';
+    width: 3rem;
+    height: 0.3rem;
+    background-color: rgba(21, 128, 60, 0.863);
+    display: block;
+}
